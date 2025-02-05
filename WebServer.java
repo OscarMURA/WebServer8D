@@ -1,7 +1,11 @@
-import java.io.*;
-import java.net.*;
+
 
 // Clase principal del servidor web
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
 public class WebServer {
     private static final int PORT = 7770;
 
